@@ -1,0 +1,53 @@
+/* Career.css */
+
+.career-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    padding: 3rem;
+    background-color: #fafafa; /* Light neutral background */
+    border-radius: 12px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: all 0.3s ease;
+  }
+  
+ 
+  
+  .career-container p {
+    font-size: 1.4rem;
+    color: #666; /* Slightly lighter text color */
+    background-color: #ffffff;
+    padding: 1rem 2rem;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.05);
+    max-width: 500px;
+    font-family: "Open Sans", sans-serif;
+  }
+  
+  .career-container p::before {
+    content: "⚠️ ";
+    font-size: 1.4rem;
+  }
+  
+  .career-container:hover {
+    box-shadow: 0 15px 40px rgba(0, 0, 0, 0.15);
+  }
+  
+  @media (max-width: 768px) {
+    .career-container {
+      padding: 2rem;
+    }
+  
+    .career-container h1 {
+      font-size: 2.2rem;
+    }
+  
+    .career-container p {
+      font-size: 1.2rem;
+    }
+  }
+  

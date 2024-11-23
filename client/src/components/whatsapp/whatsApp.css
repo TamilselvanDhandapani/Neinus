@@ -1,0 +1,47 @@
+.whatsapp-chat {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background-color: #25d366; 
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 0px rgba(37, 211, 102, 0.5); 
+    z-index: 1000;
+    animation: outerBlink 1.5s infinite; 
+    transition: transform 0.3s ease, background-color 0.3s ease-out;
+  }
+  
+  .whatsapp-chat:hover {
+    background-color: #128c7e; 
+    transform: scale(1.1); 
+  }
+  
+  .whatsapp-chat svg {
+    color: white; 
+    font-size: 30px; 
+  }
+  
+  @keyframes outerBlink {
+    0%, 100% {
+      box-shadow: 0px 0px 10px 0px rgba(35, 200, 95, 0.756); 
+    }
+    50% {
+      box-shadow: 0px 0px 20px 10px rgba(37, 211, 101, 0.867); 
+    }
+  }
+  
+  @media screen and (max-width: 768px) {
+    .whatsapp-chat {
+      width: 50px;
+      height: 50px;
+    }
+  
+    .whatsapp-chat svg {
+      font-size: 24px;
+    }
+  }
+  

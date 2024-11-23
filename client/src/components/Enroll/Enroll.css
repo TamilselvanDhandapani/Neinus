@@ -1,0 +1,143 @@
+/* Overlay styles to dim the background */
+.popup-overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+}
+
+/* Popup container */
+.popup-container {
+  background: white;
+  padding: 25px;
+  border-radius: 10px;
+  width: 404px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  position: relative;
+}
+
+/* Close button */
+.close-button {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 24px;
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* Styling for the open popup button */
+.open-popup-button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 20px;
+}
+
+.open-popup-button:hover {
+  background-color: #0056b3;
+}
+
+/* Form styling remains the same as before */
+.enroll-container {
+  display: none; /* Hide main form container when used as popup */
+}
+
+.enroll-container {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+  background-color: #f4f4f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Title styling */
+.enroll-title {
+  text-align: center;
+  color: #333;
+  
+  margin-bottom: 20px;
+}
+
+/* Form styling */
+.enroll-form {
+  display: flex;
+  flex-direction: column;
+}
+
+/* Grouping each form element */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Label styling */
+.form-label {
+  font-size: 14px;
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.3s;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  font-size: 13px;
+}
+
+/* Input field hover and focus */
+.form-input:hover {
+  border-color: #007bff;
+}
+
+.form-input:focus {
+  border-color: #007bff;
+  outline: none;
+}
+
+/* Button styling */
+.enroll-button {
+  padding: 11px;
+  background-color: #0071b5;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+/* Button hover effect */
+.enroll-button:hover {
+  background-color: #0056b3;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+  .enroll-container {
+    padding: 15px;
+  }
+
+  .form-input {
+    font-size: 14px;
+  }
+
+  .enroll-button {
+    font-size: 14px;
+  }
+}

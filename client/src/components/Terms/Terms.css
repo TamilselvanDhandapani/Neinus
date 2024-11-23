@@ -1,0 +1,32 @@
+.term-container {
+    padding: 45px;
+    font-family: Arial, sans-serif;
+    color: #333;
+    line-height: 1.6;
+}
+  
+  .heading {
+    text-align: center;
+    font-size: 24px;
+    margin-bottom: 20px;
+    color: #0066cc;
+  }
+  
+  .section {
+    margin-bottom: 15px;
+  }
+  
+  .subheading {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+    color: #333;
+  }
+  
+  .list {
+    margin-left: 20px;
+  }
+  
+  .listItem {
+    margin-bottom: 5px;
+  }

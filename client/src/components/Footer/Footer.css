@@ -1,0 +1,99 @@
+.footer-container {
+  background: #2c3e50;
+  color: white;
+}
+.footer-container h3{
+  color: white;
+  font-size: 24px;
+}
+.footer-one {
+  display: flex;
+  gap: 20px;
+  justify-content: space-evenly;
+  padding: 20px;
+  flex-wrap: wrap;
+}
+
+.ficon {
+  font-size: 20px;
+}
+.finput {
+  padding: 8px;
+  margin: 5px 0;
+  border-radius: 5px;
+  font-size: 11px;
+  width: 100%;
+}
+.fbutton {
+  padding: 6px 20px;
+  border-radius: 10px;
+  border-style: none;
+  display: block;
+  margin: 0 auto;
+  background: #4caf50;
+  color: white;
+  margin-top: 5px;
+}
+.fbutton:hover {
+  background: #88e18b;
+}
+.email-link {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  margin: 5px 0;
+}
+
+.email-link a {
+  text-decoration: none;
+  color: inherit;
+  line-height: 1;
+  font-size: 15px;
+  cursor: pointer;
+}
+.address-link {
+  display: flex;
+  gap: 5px;
+  margin: 5px 0;
+}
+.fone {
+  text-align: center;
+  line-height: 1.3;
+}
+.ftwo,
+.fthree {
+  line-height: 1.3;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-top: 15px;
+}
+.footer-two {
+  text-align: center;
+}
+.fservices {
+  line-height: 1.8;
+  font-size: 16px;
+}
+a {
+  cursor: pointer;
+}
+.social-icon-item {
+  font-size: 25px;
+}
+
+@media (max-width: 750px) {
+  .footer-one {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20px;
+  }
+  .fone {
+    text-align: start;
+  }
+}
